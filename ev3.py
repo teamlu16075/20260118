@@ -38,12 +38,6 @@ def two_light_goline(type_val,left_val, right_val, time_limit=1000, angle_limit=
     This loops indefinitely; consider adding a stop condition in `main.py`.
     """
     while True:
-        if type_val == 1:
-        
-        if type_val == 2:
-
-        if type_val == 3:
-
         if left_light.reflection() > left_val:
             if right_light.reflection() > right_val:
                 move_basic(60, 60)
